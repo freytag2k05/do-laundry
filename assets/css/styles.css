@@ -1,5 +1,65 @@
 /* styles.css */
-
-* {
-	font-family: Arial;
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  /* CSS HEX */
+  --celadon: #bbd8b3ff;
+  --sunflower-gold: #f3b61fff;
+  --old-gold: #a29f15ff;
+  --black-cherry: #510d0aff;
+  --pitch-black: #191102ff;
+}
+img {
+  display: block;
+  margin: auto;
+  max-width: 10%;
+  height: auto;
+}
+body {
+  background-color: #bbd8b3ff;
+  font-family: "Righteous", sans-serif;
+}
+body.warningpage {
+  background-color: #510d0aff;
+  font-family: "Righteous", sans-serif;
+  text-shadow: 2px 2px #191102ff;
+}
+p {
+  color: #f3b61fff;
+  font-size: 300%;
+}
+h1 {
+  color: #191102ff;
+  text-align: center;
+  font-size: 400%;
+}
+h1.warning-heading {
+  color: #f3b61fff;
+}
+img.instagram {
+  max-width: 40%;
+  height: auto;
+}
+img.catstagram {
+  max-width: 18.5%;
+  height: auto;
+}
+img.pasta {
+  max-width: 18.5%;
+  height: auto;
+}
+img.laundry {
+  max-width: 50%;
+  height: auto;
+}
+img.notepad {
+  max-width: 20%;
+  height: auto;
+}
+img.warning {
+  max-width: 20%;
+  height: auto;
 }
