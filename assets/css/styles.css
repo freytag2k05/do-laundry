@@ -88,7 +88,8 @@ img.laundry {
   color: var(--pitch-black);
   cursor: crosshair;
 }
-.btn:click {
+.btn:click,
+btn.active {
   background-color: var(--old-gold);
   border-color: var(--sunflower-gold);
   color: var(--pitch-black);
